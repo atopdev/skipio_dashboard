@@ -30,3 +30,5 @@ import '../node_modules/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js';
 import '../node_modules/easy-pie-chart/dist/jquery.easypiechart.min.js';
 // Sparklines
 import '../node_modules/jquery-sparkline/jquery.sparkline.min.js';
+// Slimscroll
+import '../node_modules/jquery-slimscroll/jquery.slimscroll.min.js';

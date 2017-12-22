@@ -1,4 +1,5 @@
 import initSparkLine from '../Common/sparkline';
+import initSlimScroll from '../Common/slimscroll';
 import initPieChart from '../Common/easypiechart.js';
 
 export default (chartSpline) => {
@@ -90,4 +91,7 @@ export default (chartSpline) => {
 
     // Easy Pie chart
     initPieChart();
+
+    // Slimscroll
+    $('[data-scrollable]').each(initSlimScroll);
 };

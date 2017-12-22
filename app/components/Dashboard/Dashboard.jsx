@@ -23,112 +23,126 @@ class Dashboard extends React.Component {
                     Dashboard
                 </div>
                 <Row>
-                    <Col xs={12} md={3}>
+                    <Col xs={12} md={5} lg={3}>
                         <div className="panel widget">
                             <div className="panel-heading text-uppercase text-center">
                                 Welcome back, Ryan
                             </div>
                             <div className="panel-body">
-                                <h4 className="text-center">What would you like to do today?</h4>
-                                <ul className="list-group">
-                                    <li className="list-group-item">
-                                        <Row className="row-table">
-                                            <Col xs={ 4 } className="text-center">
-                                                <em className="fa fa-user-plus fa-3x"></em>
-                                            </Col>
-                                            <Col xs={ 8 }>
-                                                <strong>Create a Contact</strong>
-                                                <p className="m0">
-                                                    <small>Add contacts manually, or import them from your mobile phone or a CSV.</small>
+                                <h4 className="text-center pb-lg">What would you like to do today?</h4>
+                                <div data-height="800" data-scrollable>
+                                    <div className="panel widget">
+                                        <div className="row row-table row-flush">
+                                            <div className="col-xs-5">
+                                                <picture className="lateral-picture">
+                                                    <img src="img/bg1.jpg" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div className="col-xs-7 align-middle p-lg">
+                                                <p className="lead mb-sm">
+                                                    <strong>Create a Contact</strong>
                                                 </p>
-                                            </Col>
-                                        </Row>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <Row className="row-table">
-                                            <Col xs={ 4 } className="text-center">
-                                                <em className="fa fa-users fa-3x"></em>
-                                            </Col>
-                                            <Col xs={ 8 }>
-                                                <strong>Create a group</strong>
-                                                <p className="m0">
-                                                    <small>Add contacts manually, or import them from your mobile phone or a CSV.</small>
+                                                <p>Add contacts manually, or import them from your mobile phone or a CSV.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="panel widget">
+                                        <div className="row row-table row-flush">
+                                            <div className="col-xs-5">
+                                                <picture className="lateral-picture">
+                                                    <img src="img/bg2.jpg" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div className="col-xs-7 align-middle p-lg">
+                                                <p className="lead mb-sm">
+                                                    <strong>Create a group</strong>
                                                 </p>
-                                            </Col>
-                                        </Row>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <Row className="row-table">
-                                            <Col xs={ 4 } className="text-center">
-                                                <em className="fa fa-commenting-o fa-3x"></em>
-                                            </Col>
-                                            <Col xs={ 8 }>
-                                                <strong>Send Message</strong>
-                                                <p className="m0">
-                                                    <small>Add contacts manually, or import them from your mobile phone or a CSV.</small>
+                                                <p>Add contacts manually, or import them from your mobile phone or a CSV.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="panel widget">
+                                        <div className="row row-table row-flush">
+                                            <div className="col-xs-5">
+                                                <picture className="lateral-picture">
+                                                    <img src="img/bg3.jpg" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div className="col-xs-7 align-middle p-lg">
+                                                <p className="lead mb-sm">
+                                                    <strong>Send Message</strong>
                                                 </p>
-                                            </Col>
-                                        </Row>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <Row className="row-table">
-                                            <Col xs={ 4 } className="text-center">
-                                                <em className="fa fa-bullhorn fa-3x"></em>
-                                            </Col>
-                                            <Col xs={ 8 }>
-                                                <strong>Create a Campaign</strong>
-                                                <p className="m0">
-                                                    <small>Add contacts manually, or import them from your mobile phone or a CSV.</small>
+                                                <p>Add contacts manually, or import them from your mobile phone or a CSV.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="panel widget">
+                                        <div className="row row-table row-flush">
+                                            <div className="col-xs-5">
+                                                <picture className="lateral-picture">
+                                                    <img src="img/bg4.jpg" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div className="col-xs-7 align-middle p-lg">
+                                                <p className="lead mb-sm">
+                                                    <strong>Create a Campaign</strong>
                                                 </p>
-                                            </Col>
-                                        </Row>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <Row className="row-table">
-                                            <Col xs={ 4 } className="text-center">
-                                                <em className="fa fa-calendar fa-3x"></em>
-                                            </Col>
-                                            <Col xs={ 8 }>
-                                                <strong>Schedule Message</strong>
-                                                <p className="m0">
-                                                    <small>Add contacts manually, or import them from your mobile phone or a CSV.</small>
+                                                <p>Add contacts manually, or import them from your mobile phone or a CSV.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="panel widget">
+                                        <div className="row row-table row-flush">
+                                            <div className="col-xs-5">
+                                                <picture className="lateral-picture">
+                                                    <img src="img/bg5.jpg" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div className="col-xs-7 align-middle p-lg">
+                                                <p className="lead mb-sm">
+                                                    <strong>Schedule Message</strong>
                                                 </p>
-                                            </Col>
-                                        </Row>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <Row className="row-table">
-                                            <Col xs={ 4 } className="text-center">
-                                                <em className="fa fa-sitemap fa-3x"></em>
-                                            </Col>
-                                            <Col xs={ 8 }>
-                                                <strong>Begin a Flow</strong>
-                                                <p className="m0">
-                                                    <small>Add contacts manually, or import them from your mobile phone or a CSV.</small>
+                                                <p>Add contacts manually, or import them from your mobile phone or a CSV.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="panel widget">
+                                        <div className="row row-table row-flush">
+                                            <div className="col-xs-5">
+                                                <picture className="lateral-picture">
+                                                    <img src="img/bg6.jpg" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div className="col-xs-7 align-middle p-lg">
+                                                <p className="lead mb-sm">
+                                                    <strong>Begin a Flow</strong>
                                                 </p>
-                                            </Col>
-                                        </Row>
-                                    </li>
-                                    <li className="list-group-item">
-                                        <Row className="row-table">
-                                            <Col xs={ 4 } className="text-center">
-                                                <em className="fa fa-calendar-o fa-3x"></em>
-                                            </Col>
-                                            <Col xs={ 8 }>
-                                                <strong>Create an Event</strong>
-                                                <p className="m0">
-                                                    <small>Add contacts manually, or import them from your mobile phone or a CSV.</small>
+                                                <p>Add contacts manually, or import them from your mobile phone or a CSV.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="panel widget">
+                                        <div className="row row-table row-flush">
+                                            <div className="col-xs-5">
+                                                <picture className="lateral-picture">
+                                                    <img src="img/bg7.jpg" alt="" />
+                                                </picture>
+                                            </div>
+                                            <div className="col-xs-7 align-middle p-lg">
+                                                <p className="lead mb-sm">
+                                                    <strong>Create an Event</strong>
                                                 </p>
-                                            </Col>
-                                        </Row>
-                                    </li>
-                                </ul>
+                                                <p>Add contacts manually, or import them from your mobile phone or a CSV.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </Col>
-                    <Col xs={12} md={9}>
+                    <Col xs={12} md={7} lg={9}>
                         <Row>
-                            <Col xs={12} md={6}>
+                            <Col xs={12} lg={6}>
                                 <div className="panel widget">
                                     <div className="panel-body">
                                         <Row>
@@ -189,7 +203,7 @@ class Dashboard extends React.Component {
                                                                 data-line-width="10"
                                                                 data-line-cap="round"
                                                                 data-size="100"
-                                                                className="easypie-chart easypie-chart-md"
+                                                                className="easypie-chart easypie-chart-sm"
                                                             >
                                                                 <span>24%</span>
                                                            </div>
@@ -295,7 +309,7 @@ class Dashboard extends React.Component {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col xs={12} md={6}>
+                            <Col xs={12} lg={6}>
                                 <div className="panel widget">
                                     <div className="panel-body">
                                         Iframe
@@ -304,7 +318,7 @@ class Dashboard extends React.Component {
                             </Col>
                         </Row>
                         <Row>
-                            <Col xs={12} md={6}>
+                            <Col xs={12} lg={6}>
                                 <div className="panel widget">
                                     <div className="panel-heading">
                                         Awards
@@ -355,52 +369,44 @@ class Dashboard extends React.Component {
                                     </div>
                                 </div>
                             </Col>
-                            <Col xs={12} md={6}>
+                            <Col xs={12} lg={6}>
                                 <div className="panel widget">
                                     <div className="panel-body">
                                         <Row>
                                             <Col xs={12} md={6}>
-                                                <div className="panel panel-default">
-                                                    <div className="panel-body text-center">
-                                                        <em className="fa fa-lightbulb-o fa-2x"></em>
-                                                        <p className="text-sm">Tip of the Week:</p>
-                                                        <h3 className="text-info">Sending Birthday Messages</h3>
-                                                        <p className="text-sm text-muted">
-                                                            Sending birthday messages is a great way to engage with your contacts and make them feel special.
-                                                        </p>
-                                                        <p className="text-info pv-md">
-                                                            Learn More >
-                                                        </p>
-                                                    </div>
+                                                <div className="well well-md text-center">
+                                                    <em className="fa fa-lightbulb-o fa-2x"></em>
+                                                    <p className="text-sm">Tip of the Week:</p>
+                                                    <h3 className="text-info">Sending Birthday Messages</h3>
+                                                    <p className="text-sm text-muted">
+                                                        Sending birthday messages is a great way to engage with your contacts and make them feel special.
+                                                    </p>
+                                                    <p className="text-info pv-md">
+                                                        Learn More >
+                                                    </p>
                                                 </div>
                                             </Col>
                                             <Col xs={12} md={6}>
-                                                <div className="media bb p">
-                                                    <div className="media-body">
-                                                        <a href="#" className="text-info">Mastering Skipio as a Mary Kay Sales Director</a>
-                                                        <small className="text-muted dfn">January 8th, 2017 by Joe Parry</small>
-                                                        <p>
-                                                            Master communication with your team and customers with these 3 steps.
-                                                        </p>
-                                                    </div>
+                                                <div className="well well-sm">
+                                                    <a href="#" className="text-info show">Mastering Skipio as a Mary Kay Sales Director</a>
+                                                    <dfn className="text-muted text-sm">January 8th, 2017 by Joe Parry</dfn>
+                                                    <p>
+                                                        Master communication with your team and customers with these 3 steps.
+                                                    </p>
                                                 </div>
-                                                <div className="media bb p">
-                                                    <div className="media-body">
-                                                        <a href="#" className="text-info">Increase Bookings by 40% Using Referral Flows</a>
-                                                        <small className="text-muted dfn">January 8th, 2017 by Joe Parry</small>
-                                                        <p>
-                                                            How can you use referral flows to increase your bookings by 40%? Learn how in this post.
-                                                        </p>
-                                                    </div>
+                                                <div className="well well-sm">
+                                                    <a href="#" className="text-info show">Increase Bookings by 40% Using Referral Flows</a>
+                                                    <dfn className="text-muted text-sm">January 8th, 2017 by Joe Parry</dfn>
+                                                    <p>
+                                                        How can you use referral flows to increase your bookings by 40%? Learn how in this post.
+                                                    </p>
                                                 </div>
-                                                <div className="media p">
-                                                    <div className="media-body">
-                                                        <a href="#" className="text-info">Following Up with Existing Customers</a>
-                                                        <small className="text-muted dfn">January 8th, 2017 by Joe Parry</small>
-                                                        <p>
-                                                            Repeat business is often the most lucrative option for growing your business. Learn how Skipio can help.
-                                                        </p>
-                                                    </div>
+                                                <div className="well well-sm">
+                                                    <a href="#" className="text-info show">Following Up with Existing Customers</a>
+                                                    <dfn className="text-muted text-sm">January 8th, 2017 by Joe Parry</dfn>
+                                                    <p>
+                                                        Repeat business is often the most lucrative option for growing your business. Learn how Skipio can help.
+                                                    </p>
                                                 </div>
                                             </Col>
                                         </Row>
